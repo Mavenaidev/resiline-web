@@ -1,0 +1,24 @@
+{
+  "name": "resiline-web",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Resiline customer-facing app (Atrium): resident portal + property-manager console",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest run",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.21.1",
+    "axios": "1.6.5"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3",
+    "vite": "5.0.12",
+    "vitest": "1.2.0",
+    "@types/node": "20.11.5"
+  }
+}

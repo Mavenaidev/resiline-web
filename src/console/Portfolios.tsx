@@ -1,4 +1,4 @@
-// maint seq=1
+// maint seq=6
 import React from 'react';
 
 // Property-manager console: portfolio list (Cornerstone/Portfolio accounts).

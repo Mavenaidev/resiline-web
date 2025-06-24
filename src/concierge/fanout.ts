@@ -1,4 +1,4 @@
-// maint seq=189
+// maint seq=194
 // Concierge: notification fan-out (email/SMS/push). Lives inside Atrium today;
 // ADR-013 decided to extract it into its own service (target Q4 2025).
 export type Channel = 'email' | 'sms' | 'push';

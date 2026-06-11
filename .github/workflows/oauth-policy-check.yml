@@ -1,0 +1,11 @@
+name: oauth-policy-check
+# Enforces ADR-005 / ATR-198 (OAuth-from-v2.4): any new /v2 BFF route must be
+# wrapped in requireOAuth. Fails the build otherwise.
+on: [pull_request]
+jobs:
+  oauth-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: check new v2 routes require OAuth
+        run: node scripts/check-oauth-policy.js
